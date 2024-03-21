@@ -16,7 +16,6 @@
 		C0048F042BAA2CBE0087CED9 /* Ind02_Howard_DerekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0048F032BAA2CBE0087CED9 /* Ind02_Howard_DerekTests.swift */; };
 		C0048F0E2BAA2CBE0087CED9 /* Ind02_Howard_DerekUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0048F0D2BAA2CBE0087CED9 /* Ind02_Howard_DerekUITests.swift */; };
 		C0048F102BAA2CBE0087CED9 /* Ind02_Howard_DerekUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0048F0F2BAA2CBE0087CED9 /* Ind02_Howard_DerekUITestsLaunchTests.swift */; };
-		C06215812BABC1DA0087AD6D /* MyUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06215802BABC1DA0087AD6D /* MyUiView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +50,6 @@
 		C0048F0D2BAA2CBE0087CED9 /* Ind02_Howard_DerekUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ind02_Howard_DerekUITests.swift; sourceTree = "<group>"; };
 		C0048F0F2BAA2CBE0087CED9 /* Ind02_Howard_DerekUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ind02_Howard_DerekUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C044FBDE2BAA800300C3EDE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
-		C06215802BABC1DA0087AD6D /* MyUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUiView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +100,6 @@
 		C0048EEB2BAA2CBD0087CED9 /* Ind02_Howard_Derek */ = {
 			isa = PBXGroup;
 			children = (
-				C06215802BABC1DA0087AD6D /* MyUiView.swift */,
 				C0048EEC2BAA2CBD0087CED9 /* AppDelegate.swift */,
 				C0048EEE2BAA2CBD0087CED9 /* SceneDelegate.swift */,
 				C0048EF02BAA2CBD0087CED9 /* ViewController.swift */,
@@ -262,7 +259,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C06215812BABC1DA0087AD6D /* MyUiView.swift in Sources */,
 				C0048EF12BAA2CBD0087CED9 /* ViewController.swift in Sources */,
 				C0048EED2BAA2CBD0087CED9 /* AppDelegate.swift in Sources */,
 				C0048EEF2BAA2CBD0087CED9 /* SceneDelegate.swift in Sources */,

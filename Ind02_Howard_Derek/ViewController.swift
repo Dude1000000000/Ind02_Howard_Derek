@@ -15,5 +15,8 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func tapHandler(_ sender: UITapGestureRecognizer) {
+        print("Tap handled")
+    }
 }
 
