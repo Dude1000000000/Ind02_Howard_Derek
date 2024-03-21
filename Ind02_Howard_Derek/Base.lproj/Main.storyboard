@@ -16,12 +16,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="4" translatesAutoresizingMaskIntoConstraints="NO" id="81w-if-zvP">
-                                <rect key="frame" x="10" y="236" width="93" height="93"/>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="dkg-Zd-jXm">
+                                <rect key="frame" x="105" y="141" width="93" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
                                 <connections>
-                                    <outletCollection property="gestureRecognizers" destination="efr-7F-12v" appends="YES" id="Fqk-GJ-pPp"/>
+                                    <outletCollection property="gestureRecognizers" destination="6ko-gr-Yjc" appends="YES" id="fpF-qP-jcq"/>
                                 </connections>
                             </imageView>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="rkH-0i-Gl0">
@@ -40,12 +40,12 @@
                                     <outletCollection property="gestureRecognizers" destination="YKI-oY-g76" appends="YES" id="sWN-rA-p2d"/>
                                 </connections>
                             </imageView>
-                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="6" translatesAutoresizingMaskIntoConstraints="NO" id="zp3-6f-SBT">
-                                <rect key="frame" x="200" y="236" width="93" height="93"/>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="4" translatesAutoresizingMaskIntoConstraints="NO" id="81w-if-zvP">
+                                <rect key="frame" x="10" y="236" width="93" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
                                 <connections>
-                                    <outletCollection property="gestureRecognizers" destination="bQ8-9a-0lD" appends="YES" id="emd-LT-0vc"/>
+                                    <outletCollection property="gestureRecognizers" destination="efr-7F-12v" appends="YES" id="Fqk-GJ-pPp"/>
                                 </connections>
                             </imageView>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="5" translatesAutoresizingMaskIntoConstraints="NO" id="5bW-pO-Xcr">
@@ -56,12 +56,36 @@
                                     <outletCollection property="gestureRecognizers" destination="K6w-Kd-cZW" appends="YES" id="ZlQ-Nk-BCA"/>
                                 </connections>
                             </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="6" translatesAutoresizingMaskIntoConstraints="NO" id="zp3-6f-SBT">
+                                <rect key="frame" x="200" y="236" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="bQ8-9a-0lD" appends="YES" id="emd-LT-0vc"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="7" translatesAutoresizingMaskIntoConstraints="NO" id="MYR-6w-VVP">
+                                <rect key="frame" x="295" y="236" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="SRN-kJ-3Vy" appends="YES" id="DTu-UY-48Q"/>
+                                </connections>
+                            </imageView>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="8" translatesAutoresizingMaskIntoConstraints="NO" id="NTs-k2-6zR">
                                 <rect key="frame" x="10" y="331" width="93" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="LX4-DJ-4so" appends="YES" id="i64-lA-Qx8"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="9" translatesAutoresizingMaskIntoConstraints="NO" id="YUS-eO-ytC">
+                                <rect key="frame" x="105" y="331" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="g7m-xM-WVY" appends="YES" id="Kw9-xN-9oP"/>
                                 </connections>
                             </imageView>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="10" translatesAutoresizingMaskIntoConstraints="NO" id="nu7-GS-KzF">
@@ -78,30 +102,6 @@
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="lhP-Wc-OIJ" appends="YES" id="SbR-5F-CfU"/>
-                                </connections>
-                            </imageView>
-                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="9" translatesAutoresizingMaskIntoConstraints="NO" id="YUS-eO-ytC">
-                                <rect key="frame" x="105" y="331" width="93" height="93"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="g7m-xM-WVY" appends="YES" id="Kw9-xN-9oP"/>
-                                </connections>
-                            </imageView>
-                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="dkg-Zd-jXm">
-                                <rect key="frame" x="105" y="141" width="93" height="93"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="6ko-gr-Yjc" appends="YES" id="fpF-qP-jcq"/>
-                                </connections>
-                            </imageView>
-                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="7" translatesAutoresizingMaskIntoConstraints="NO" id="MYR-6w-VVP">
-                                <rect key="frame" x="295" y="236" width="93" height="93"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="SRN-kJ-3Vy" appends="YES" id="DTu-UY-48Q"/>
                                 </connections>
                             </imageView>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="12" translatesAutoresizingMaskIntoConstraints="NO" id="2WX-7H-O0k">
@@ -142,6 +142,14 @@
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="8NV-D9-Crz" appends="YES" id="ews-Fk-4ul"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="17" translatesAutoresizingMaskIntoConstraints="NO" id="Nv6-uX-LW3">
+                                <rect key="frame" x="105" y="521" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="NQI-Ue-jMU" appends="YES" id="oO6-KN-bJA"/>
                                 </connections>
                             </imageView>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="18" translatesAutoresizingMaskIntoConstraints="NO" id="YAM-xV-6I8">
@@ -187,14 +195,6 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Show awnser" cornerStyle="capsule"/>
                             </button>
-                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="17" translatesAutoresizingMaskIntoConstraints="NO" id="Nv6-uX-LW3">
-                                <rect key="frame" x="105" y="521" width="93" height="93"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="NQI-Ue-jMU" appends="YES" id="oO6-KN-bJA"/>
-                                </connections>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -203,47 +203,99 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="6ko-gr-Yjc">
                     <connections>
-                        <action selector="tapHandler:" destination="BYZ-38-t0r" id="xW7-6Y-39s"/>
+                        <action selector="tapHandler:" destination="BYZ-38-t0r" id="IM3-X3-w6p"/>
                     </connections>
                 </tapGestureRecognizer>
-                <tapGestureRecognizer id="prH-Zr-QkB"/>
+                <tapGestureRecognizer id="prH-Zr-QkB">
+                    <connections>
+                        <action selector="tapHandler:" destination="BYZ-38-t0r" id="ddv-3M-I6T"/>
+                    </connections>
+                </tapGestureRecognizer>
                 <tapGestureRecognizer id="YKI-oY-g76">
                     <connections>
-                        <action selector="tapHandler:" destination="BYZ-38-t0r" id="NOI-Ka-B6H"/>
+                        <action selector="tapHandler:" destination="BYZ-38-t0r" id="BhX-FC-OFk"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="efr-7F-12v">
                     <connections>
-                        <action selector="tapHandler:" destination="BYZ-38-t0r" id="hk2-qE-kQH"/>
+                        <action selector="tapHandler:" destination="BYZ-38-t0r" id="V9x-TN-DWS"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="K6w-Kd-cZW">
                     <connections>
-                        <action selector="tapHandler:" destination="BYZ-38-t0r" id="ZbV-Tw-Idp"/>
+                        <action selector="tapHandler:" destination="BYZ-38-t0r" id="348-t2-ct1"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="bQ8-9a-0lD">
                     <connections>
-                        <action selector="tapHandler:" destination="BYZ-38-t0r" id="Wja-Ke-JMv"/>
+                        <action selector="tapHandler:" destination="BYZ-38-t0r" id="BzV-q3-U4J"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="SRN-kJ-3Vy">
                     <connections>
-                        <action selector="tapHandler:" destination="BYZ-38-t0r" id="LUg-LD-CfU"/>
+                        <action selector="tapHandler:" destination="BYZ-38-t0r" id="h9V-MJ-CIU"/>
                     </connections>
                 </tapGestureRecognizer>
-                <tapGestureRecognizer id="LX4-DJ-4so"/>
-                <tapGestureRecognizer id="g7m-xM-WVY"/>
-                <tapGestureRecognizer id="iJk-O1-HrJ"/>
-                <tapGestureRecognizer id="lhP-Wc-OIJ"/>
-                <tapGestureRecognizer id="yzJ-iH-jRa"/>
-                <tapGestureRecognizer id="dlq-ms-nPv"/>
-                <tapGestureRecognizer id="gWa-Vh-al8"/>
-                <tapGestureRecognizer id="5RZ-jP-u2F"/>
-                <tapGestureRecognizer id="8NV-D9-Crz"/>
-                <tapGestureRecognizer id="NQI-Ue-jMU"/>
-                <tapGestureRecognizer id="89E-3e-av6"/>
-                <tapGestureRecognizer id="6QW-tP-8Im"/>
+                <tapGestureRecognizer id="LX4-DJ-4so">
+                    <connections>
+                        <action selector="tapHandler:" destination="BYZ-38-t0r" id="Ge5-z1-e7m"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="g7m-xM-WVY">
+                    <connections>
+                        <action selector="tapHandler:" destination="BYZ-38-t0r" id="MVA-HP-euu"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="iJk-O1-HrJ">
+                    <connections>
+                        <action selector="tapHandler:" destination="BYZ-38-t0r" id="7EG-1k-dgQ"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="lhP-Wc-OIJ">
+                    <connections>
+                        <action selector="tapHandler:" destination="BYZ-38-t0r" id="xVP-Nq-y5l"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="yzJ-iH-jRa">
+                    <connections>
+                        <action selector="tapHandler:" destination="BYZ-38-t0r" id="qfd-dQ-EN5"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="dlq-ms-nPv">
+                    <connections>
+                        <action selector="tapHandler:" destination="BYZ-38-t0r" id="ppA-z2-uPN"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="gWa-Vh-al8">
+                    <connections>
+                        <action selector="tapHandler:" destination="BYZ-38-t0r" id="Vnl-3X-b4a"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="5RZ-jP-u2F">
+                    <connections>
+                        <action selector="tapHandler:" destination="BYZ-38-t0r" id="Kyg-mA-H7s"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="8NV-D9-Crz">
+                    <connections>
+                        <action selector="tapHandler:" destination="BYZ-38-t0r" id="rXx-o9-vqF"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="NQI-Ue-jMU">
+                    <connections>
+                        <action selector="tapHandler:" destination="BYZ-38-t0r" id="eh5-wf-LFK"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="89E-3e-av6">
+                    <connections>
+                        <action selector="tapHandler:" destination="BYZ-38-t0r" id="nXx-yl-hfk"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="6QW-tP-8Im">
+                    <connections>
+                        <action selector="tapHandler:" destination="BYZ-38-t0r" id="Qmd-Qy-L1u"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="20.610687022900763" y="3.5211267605633805"/>
         </scene>
