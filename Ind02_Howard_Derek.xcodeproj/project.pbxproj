@@ -16,6 +16,7 @@
 		C0048F042BAA2CBE0087CED9 /* Ind02_Howard_DerekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0048F032BAA2CBE0087CED9 /* Ind02_Howard_DerekTests.swift */; };
 		C0048F0E2BAA2CBE0087CED9 /* Ind02_Howard_DerekUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0048F0D2BAA2CBE0087CED9 /* Ind02_Howard_DerekUITests.swift */; };
 		C0048F102BAA2CBE0087CED9 /* Ind02_Howard_DerekUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0048F0F2BAA2CBE0087CED9 /* Ind02_Howard_DerekUITestsLaunchTests.swift */; };
+		C03B68692BACDE8C009ECE8F /* AnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03B68682BACDE8C009ECE8F /* AnswerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C0048F092BAA2CBE0087CED9 /* Ind02_Howard_DerekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ind02_Howard_DerekUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0048F0D2BAA2CBE0087CED9 /* Ind02_Howard_DerekUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ind02_Howard_DerekUITests.swift; sourceTree = "<group>"; };
 		C0048F0F2BAA2CBE0087CED9 /* Ind02_Howard_DerekUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ind02_Howard_DerekUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C03B68682BACDE8C009ECE8F /* AnswerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerViewController.swift; sourceTree = "<group>"; };
 		C044FBDE2BAA800300C3EDE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,6 +105,7 @@
 				C0048EEC2BAA2CBD0087CED9 /* AppDelegate.swift */,
 				C0048EEE2BAA2CBD0087CED9 /* SceneDelegate.swift */,
 				C0048EF02BAA2CBD0087CED9 /* ViewController.swift */,
+				C03B68682BACDE8C009ECE8F /* AnswerViewController.swift */,
 				C0048EF22BAA2CBD0087CED9 /* Main.storyboard */,
 				C0048EF52BAA2CBE0087CED9 /* Assets.xcassets */,
 				C0048EF72BAA2CBE0087CED9 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C03B68692BACDE8C009ECE8F /* AnswerViewController.swift in Sources */,
 				C0048EF12BAA2CBD0087CED9 /* ViewController.swift in Sources */,
 				C0048EED2BAA2CBD0087CED9 /* AppDelegate.swift in Sources */,
 				C0048EEF2BAA2CBD0087CED9 /* SceneDelegate.swift in Sources */,
