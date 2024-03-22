@@ -14,10 +14,12 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func shuffle(_ sender: Any) {
+        SceneDelegate().shuffle()
+    }
+    
     @IBAction func tapHandler(_ sender: UITapGestureRecognizer) {
         print("Tap handled")
     }
-    
 }
 

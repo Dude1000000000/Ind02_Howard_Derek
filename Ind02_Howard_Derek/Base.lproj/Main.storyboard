@@ -198,6 +198,19 @@
                                     <segue destination="45O-Ha-MTs" kind="show" id="koe-U1-bBz"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uvm-98-qux">
+                                <rect key="frame" x="157" y="656" width="79" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Shuffle" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                                    </backgroundConfiguration>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="shuffle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="za0-yi-YkA"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -483,12 +496,13 @@
                                             <accessibilityTraits key="traits" image="YES" notEnabled="YES"/>
                                         </accessibility>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AOC-nR-W7v">
-                                        <rect key="frame" x="137" y="722" width="119" height="35"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" role="cancel" translatesAutoresizingMaskIntoConstraints="NO" id="AOC-nR-W7v">
+                                        <rect key="frame" x="137" y="703" width="119" height="35"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Hide awnser" cornerStyle="capsule"/>
                                         <connections>
+                                            <action selector="hideAnswer:" destination="45O-Ha-MTs" eventType="touchUpInside" id="o7J-GL-Hss"/>
                                             <action selector="hideanswer:" destination="tOj-yQ-5Bc" eventType="touchUpInside" id="kgI-wk-0cT"/>
                                         </connections>
                                     </button>
@@ -505,7 +519,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oJH-9b-XHh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="tOj-yQ-5Bc" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="721" y="4"/>
+            <point key="canvasLocation" x="715" y="-6"/>
         </scene>
     </scenes>
     <resources>
