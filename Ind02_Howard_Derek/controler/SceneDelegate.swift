@@ -11,7 +11,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
     
-    var baord: [[UIImageView]] = []
+    var baord: [[UIImageView]] = [
+    [],
+    [],
+    [],
+    [],
+    []
+    ]
     
     func shuffle() -> [[String]] {
         AppDelegate().shuffel()

@@ -9,44 +9,35 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var nameLable: UILabel! = nil
+   /* var nameLable: UILabel! = nil
     var baord: [[UIImageView]] = [
         [UIImageView(image: UIImage.transparentSquare),UIImageView(image: UIImage._1),UIImageView(image: UIImage._2),UIImageView(image: UIImage._3)],
         [UIImageView(image: UIImage._4),UIImageView(image: UIImage._5),UIImageView(image: UIImage._6),UIImageView(image: UIImage._7)],
         [UIImageView(image: UIImage._8),UIImageView(image: UIImage._9),UIImageView(image: UIImage._10),UIImageView(image: UIImage._11)],
         [UIImageView(image: UIImage._12),UIImageView(image: UIImage._13),UIImageView(image: UIImage._14),UIImageView(image: UIImage._15)],
         [UIImageView(image: UIImage._16),UIImageView(image: UIImage._17),UIImageView(image: UIImage._18),UIImageView(image: UIImage._19)]
-    ]
-
-    override func loadView() {
-        view=UIView()
-        view.backgroundColor = .red
-        
-        nameLable = UILabel()
-        nameLable.translatesAutoresizingMaskIntoConstraints=false
-        nameLable.textAlignment = .left
-        nameLable.text = "Derek howard"
-        view.addSubview(nameLable)
-        
-        NSLayoutConstraint.activate([
-            nameLable.topAnchor.constraint(equalTo: view.layoutMarginsGuide.topAnchor),
-            nameLable.trailingAnchor.constraint(equalTo: view.layoutMarginsGuide.trailingAnchor)
-        ])
-    }
+    ]*/
+   
+    
+    
+    
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-    
 
     @IBAction func shuffle(_ sender: Any) {
-    
+        SceneDelegate().shuffle()
     }
     
     @IBAction func tapHandler(_ sender: UITapGestureRecognizer) {
         print("Tap handled")
+        
     }
+    
+
+    
 }
 
