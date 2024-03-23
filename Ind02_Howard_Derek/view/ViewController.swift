@@ -37,6 +37,14 @@ class ViewController: UIViewController {
         
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let test = segue.destination as! AnswerViewController
+    }
+    
+    @IBAction func myUwindAction(segue: UIStoryboardSegue){
+        let test = segue.source as! AnswerViewController
+    }
+    
 
     
 }
