@@ -3,4 +3,52 @@
    uuid = "227CEA50-6007-4345-B041-6CE0D1FD5C26"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "939334EA-4EE2-481F-A26E-64FFA32CF7CC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ind02_Howard_Derek/view/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "shuffle(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "939334EA-4EE2-481F-A26E-64FFA32CF7CC - 6e2a8f18504729b6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ind02_Howard_Derek.ViewController.shuffle(Any) -&gt; ()"
+                  moduleName = "Ind02_Howard_Derek"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/laurahoward/Desktop/Ind02_Howard_Derek/Ind02_Howard_Derek/Ind02_Howard_Derek/Ind02_Howard_Derek/view/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39">
+               </Location>
+               <Location
+                  uuid = "939334EA-4EE2-481F-A26E-64FFA32CF7CC - 6e2a8f18504729f8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ind02_Howard_Derek.ViewController.shuffle(Any) -&gt; ()"
+                  moduleName = "Ind02_Howard_Derek"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/laurahoward/Desktop/Ind02_Howard_Derek/Ind02_Howard_Derek/Ind02_Howard_Derek/Ind02_Howard_Derek/view/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

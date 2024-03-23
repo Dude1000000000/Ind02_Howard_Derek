@@ -211,7 +211,6 @@
                     </view>
                     <navigationItem key="navigationItem" id="m6c-iM-4HK"/>
                     <connections>
-                        <outletCollection property="board" destination="yfO-yP-gtH" collectionClass="NSMutableArray" id="XVi-oV-0fj"/>
                         <outletCollection property="rowOne" destination="Kbz-7x-yYy" collectionClass="NSMutableArray" id="OHc-tY-GMx"/>
                         <outletCollection property="rowTwo" destination="81w-if-zvP" collectionClass="NSMutableArray" id="s5h-JN-9yt"/>
                         <outletCollection property="rowThree" destination="NTs-k2-6zR" collectionClass="NSMutableArray" id="4jf-mY-B9K"/>
@@ -235,102 +234,102 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="HmV-c0-Dhz" userLabel="Tap 0">
+                <tapGestureRecognizer id="HmV-c0-Dhz" userLabel="0">
                     <connections>
                         <action selector="tapHandler:" destination="BYZ-38-t0r" id="9kK-Jn-prc"/>
                     </connections>
                 </tapGestureRecognizer>
-                <tapGestureRecognizer id="twk-gO-Gth" userLabel="Tap 1">
+                <tapGestureRecognizer id="twk-gO-Gth" userLabel="1">
                     <connections>
                         <action selector="tapHandler:" destination="BYZ-38-t0r" id="oG8-DU-3dp"/>
                     </connections>
                 </tapGestureRecognizer>
-                <tapGestureRecognizer id="fCP-do-OuB" userLabel="Tap 2">
+                <tapGestureRecognizer id="fCP-do-OuB" userLabel="2">
                     <connections>
                         <action selector="tapHandler:" destination="BYZ-38-t0r" id="ldg-IY-4nl"/>
                     </connections>
                 </tapGestureRecognizer>
-                <tapGestureRecognizer id="JqA-hd-BbD" userLabel="Tap 3">
+                <tapGestureRecognizer id="JqA-hd-BbD" userLabel="3">
                     <connections>
                         <action selector="tapHandler:" destination="BYZ-38-t0r" id="Y9b-fr-7Ry"/>
                     </connections>
                 </tapGestureRecognizer>
-                <tapGestureRecognizer id="04G-si-wLB" userLabel="Tap 4">
+                <tapGestureRecognizer id="04G-si-wLB" userLabel="4">
                     <connections>
                         <action selector="tapHandler:" destination="BYZ-38-t0r" id="zR7-Af-fhc"/>
                     </connections>
                 </tapGestureRecognizer>
-                <tapGestureRecognizer id="geG-Xz-XYn" userLabel="Tap 5">
+                <tapGestureRecognizer id="geG-Xz-XYn" userLabel="5">
                     <connections>
                         <action selector="tapHandler:" destination="BYZ-38-t0r" id="cJz-lJ-SnA"/>
                     </connections>
                 </tapGestureRecognizer>
-                <tapGestureRecognizer id="sAO-0Z-vQA" userLabel="Tap 6">
+                <tapGestureRecognizer id="sAO-0Z-vQA" userLabel="6">
                     <connections>
                         <action selector="tapHandler:" destination="BYZ-38-t0r" id="RTa-c9-4Mz"/>
                     </connections>
                 </tapGestureRecognizer>
-                <tapGestureRecognizer id="pU8-XX-kqI" userLabel="Tap 7">
+                <tapGestureRecognizer id="pU8-XX-kqI" userLabel="7">
                     <connections>
                         <action selector="tapHandler:" destination="BYZ-38-t0r" id="PBW-0L-MPV"/>
                     </connections>
                 </tapGestureRecognizer>
-                <tapGestureRecognizer id="HWN-lD-bfR" userLabel="Tap 8">
+                <tapGestureRecognizer id="HWN-lD-bfR" userLabel="8">
                     <connections>
                         <action selector="tapHandler:" destination="BYZ-38-t0r" id="Ofw-TB-gGB"/>
                     </connections>
                 </tapGestureRecognizer>
-                <tapGestureRecognizer id="E5p-ya-XE9" userLabel="Tap 9">
+                <tapGestureRecognizer id="E5p-ya-XE9" userLabel="9">
                     <connections>
                         <action selector="tapHandler:" destination="BYZ-38-t0r" id="olt-As-Mh4"/>
                     </connections>
                 </tapGestureRecognizer>
-                <tapGestureRecognizer id="i6K-OE-aeA" userLabel="Tap 10">
+                <tapGestureRecognizer id="i6K-OE-aeA" userLabel="10">
                     <connections>
                         <action selector="tapHandler:" destination="BYZ-38-t0r" id="jfX-Rf-OAx"/>
                     </connections>
                 </tapGestureRecognizer>
-                <tapGestureRecognizer id="UBc-og-TcS" userLabel="Tap 11">
+                <tapGestureRecognizer id="UBc-og-TcS" userLabel="11">
                     <connections>
                         <action selector="tapHandler:" destination="BYZ-38-t0r" id="LU2-r0-71u"/>
                     </connections>
                 </tapGestureRecognizer>
-                <tapGestureRecognizer id="K7p-e3-cxg" userLabel="Tap 12">
+                <tapGestureRecognizer id="K7p-e3-cxg" userLabel="12">
                     <connections>
                         <action selector="tapHandler:" destination="BYZ-38-t0r" id="ONx-r7-isF"/>
                     </connections>
                 </tapGestureRecognizer>
-                <tapGestureRecognizer id="ryT-eu-wYT" userLabel="Tap 13">
+                <tapGestureRecognizer id="ryT-eu-wYT" userLabel="13">
                     <connections>
                         <action selector="tapHandler:" destination="BYZ-38-t0r" id="hzz-ff-cT6"/>
                     </connections>
                 </tapGestureRecognizer>
-                <tapGestureRecognizer id="yqO-AV-u7G" userLabel="Tap 14">
+                <tapGestureRecognizer id="yqO-AV-u7G" userLabel="14">
                     <connections>
                         <action selector="tapHandler:" destination="BYZ-38-t0r" id="iIB-Yo-Iwc"/>
                     </connections>
                 </tapGestureRecognizer>
-                <tapGestureRecognizer id="Ly4-Ig-DOC" userLabel="Tap 15">
+                <tapGestureRecognizer id="Ly4-Ig-DOC" userLabel="15">
                     <connections>
                         <action selector="tapHandler:" destination="BYZ-38-t0r" id="XyJ-if-08H"/>
                     </connections>
                 </tapGestureRecognizer>
-                <tapGestureRecognizer id="MSb-dX-YP3" userLabel="Tap 16">
+                <tapGestureRecognizer id="MSb-dX-YP3" userLabel="16">
                     <connections>
                         <action selector="tapHandler:" destination="BYZ-38-t0r" id="1RC-9p-m6a"/>
                     </connections>
                 </tapGestureRecognizer>
-                <tapGestureRecognizer id="S4r-GG-gE7" userLabel="Tap 17">
+                <tapGestureRecognizer id="S4r-GG-gE7" userLabel="17">
                     <connections>
                         <action selector="tapHandler:" destination="BYZ-38-t0r" id="5Qi-5c-oGx"/>
                     </connections>
                 </tapGestureRecognizer>
-                <tapGestureRecognizer id="zK3-Um-47v" userLabel="Tap 18">
+                <tapGestureRecognizer id="zK3-Um-47v" userLabel="18">
                     <connections>
                         <action selector="tapHandler:" destination="BYZ-38-t0r" id="Cet-S3-zDi"/>
                     </connections>
                 </tapGestureRecognizer>
-                <tapGestureRecognizer id="Sfr-T4-Ay3" userLabel="Tap 19">
+                <tapGestureRecognizer id="Sfr-T4-Ay3" userLabel="19">
                     <connections>
                         <action selector="tapHandler:" destination="BYZ-38-t0r" id="LaC-uI-gJP"/>
                     </connections>
