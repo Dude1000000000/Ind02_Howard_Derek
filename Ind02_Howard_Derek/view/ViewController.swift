@@ -8,17 +8,18 @@
 import UIKit
 
 class ViewController: UIViewController {
+    /*
+    let blank = UIImage(named: "transparent square")
     
+    @IBOutlet var rowOne: [UIImageView]!
     
-    @IBOutlet var _0: UIImageView!
+    @IBOutlet var rowTwo: [UIImageView]!
     
+    @IBOutlet var rowThree: [UIImageView]!
     
+    @IBOutlet var rowFour: [UIImageView]!
     
-    
-    
-    
-    
-    
+    @IBOutlet var rowFive: [UIImageView]!
     
     
     override func viewDidLoad() {
@@ -27,13 +28,26 @@ class ViewController: UIViewController {
     }
 
     @IBAction func shuffle(_ sender: Any) {
-        SceneDelegate().shuffle()
-    }
+        var board: [[UIImageView]] = [
+    rowOne,rowTwo,rowThree,rowFour,rowFive
+        ]
+        let newBoard = SceneDelegate().shuffle()
+        var count = 0
+        var x = 0
+        var y = 0
+        
+        while count < 19 {
+            if x > 2 {
+            board[y][x].image=UIImage(named: "\(newBoard[y][x]).png")
+        count+=1
+                x=0
+                y+=1
+            } else {x+=1}
+        }
+    }*/
     
     @IBAction func tapHandler(_ sender: UITapGestureRecognizer) {
         print("Tap handled")
-        _0.image = UIImage(named: "20.png")
-        
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
